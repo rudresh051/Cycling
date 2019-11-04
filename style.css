@@ -1,0 +1,114 @@
+
+/*for cycle intro*/
+.fit-picture{
+
+    display: flex;
+    border: 5px solid red;
+    padding: 5px ;
+    background: purple;
+    margin: -70px 40px 0px 0px;
+}
+
+.fit-picture{
+    width: 800px;
+    height: 400px;
+    float: right;
+}
+/*for cycle intro intro*/
+
+/*why cycling*/
+
+.why {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto auto ; 
+    background: black;
+    padding: 10px;
+  }
+  
+  .why div {
+    background: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .hello{
+      text-align: center;
+      font-size: 50px;
+      color: chocolate;
+
+  }
+/*why cycling end*/
+
+
+/*index page content */
+#rj{
+
+    width: 400px;
+  height: 300px;
+
+}
+body p1{
+    font-size: 20px;
+}
+p1 + ul{
+    font-size: 20px;
+}
+
+ul > p1{
+
+    font-style: italic;
+}
+
+h1 ~ div{
+    font-style: italic;
+    font-size: 20px;
+}
+/*index page content end*/
+
+
+/*racing page*/
+div ~ div1
+{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+}
+/*developer part*/
+.hi{
+    text-align: center;
+    font-size: 50px;
+}
+
+#flex-box{
+
+    flex-direction: column;
+    margin: 100px;
+    border:5px solid black;
+    padding: 20px;
+}
+
+#flex-box div{
+
+
+    height: 100px;
+    width: 600px;
+    background:aqua;
+    margin: 100px;
+    border:10px solid maroon;
+    padding:20px;
+    font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+   
+    #flex-box div{
+      flex-direction:row;
+      background: darkgoldenrod;
+    }
+  }
+
+
+  /*developer part end*/
