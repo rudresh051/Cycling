@@ -1,2 +1,2 @@
-# masai-sprint-1
+# Cycling
 A Cycling webpage created using HTML and CSS
