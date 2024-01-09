@@ -1,2 +1,7 @@
 # Cycling
-A Cycling webpage created using HTML and CSS
+**Technology Used :**
+* HTML, CSS
+  
+**Key Features:**
+* Presentation of cycling history, benefits, and advantages
+* Static content for information display
